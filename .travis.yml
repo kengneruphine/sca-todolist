@@ -1,6 +1,12 @@
 language: node_js
 node_js:
-    - "lts/*"    
+    - "node"   
+dist: trusty
+install:
+    npm i npm@latest -g
+    npm ci
+script:
+              
 cache:
     directories:
         - node_modules   
