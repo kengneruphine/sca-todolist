@@ -4,9 +4,7 @@ node_js:
 dist: trusty
 install:
     npm i npm@latest -g
-    npm ci
-script:
-              
+    npm ci  
 cache:
     directories:
         - node_modules   
