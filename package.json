@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node -r esm src/server.js",
-    "test": "mocha --reporter spec",
+    "test": "mocha",
     "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*",
     "dev": "NODE_ENV=development npm-run-all build src",
     "prod": "NODE_ENV=production npm-run-all build src",
